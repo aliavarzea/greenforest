@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    text-decoration: none;
+    font-weight: unset;
+    font-family: 'Cedarville Cursive';
+    color: white;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    background-color: #fff;
+    align-items: center;
+    background-image: url("flower.gif");
+    background-repeat: repeat;
+}
+
+#navbar {
+    display: flex;
+    background-color: green;
+    flex-direction: center;
+}
+
+#navbar div{
+    padding: 0.1em;
+    font-size: 1.5em;
+    text-align: center;
+
+}
+#navigation-links a{
+    margin-left: 1em;
+    justify-content: flex-end;
+}
+
+#navigation-links a:hover{
+    background-color: green;
+    color: lightgrey;
+}
+
+#maincontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.content-header{
+    font-size: 2.5em;
+    color: black;
+    padding: 1.5em;
+    text-align: center;
+}
+
+#greeting{
+    background-color: lightgreen;
+    width: 100%;
+    padding: 2em;
+
+}
+
+.text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+    padding: 1.5em;
+    color: black;
+    text-align: center;
+}
+
+#plants{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    max-width: 50em;
+}
+
+.plant{
+    display: flex;
+    flex-direction: row;
+}
+.plant img{
+    border-radius: 3em;
+    max-width: 200px;
+}
+
+.plant p{
+    font-family: 'Roboto', sans-serif;
+    color:black;
+    padding:1em;
+    width: 100%;
+}
+
+#form{
+    display: flex;
+    text-align: center;
+}
+
+#aboutbox{
+    background-color: lightgreen;
+    width: 100%;
+    padding: 2em;
+}
