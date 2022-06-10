@@ -24,7 +24,6 @@ body{
 #navbar {
     display: flex;
     background-color: green;
-    flex-direction: center;
 }
 
 #navbar div{
